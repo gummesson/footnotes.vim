@@ -1,0 +1,52 @@
+==============================================================================
+
+  INTRODUCTION						*footnotes-intro*
+
+  *footnotes.vim* is a for easily managing sessions in Vim.
+
+==============================================================================
+
+  INSTALLATION						*footnotes-install*
+
+  Pathogen:
+>
+  cd ~/.vim/bundle
+  git clone https://github.com/gummesson/footnotes.vim.git
+<
+  If you're not using Pathogen place the corresponding files in their
+  respective folders in the home Vim directory or follow the instructions
+  from the plugin manager you're using.
+
+==============================================================================
+
+  USAGE							*footnotes-usage*
+
+  Append the date to footnotes:				*footnotes-append*
+>
+  :FootnotesAppend
+<
+  Strip the date from footnotes:			*footnotes-strip*
+>
+ :FootnotesStrip
+<
+  Toggle between both functions:			*footnotes-toggle*
+>
+ :FootnotesToggle
+<
+  This will reformat a footnote from [^1] to [^20130214-1] or from 
+  [^20130214-1] to [^1].
+
+==============================================================================
+
+  CONFIGURATION						*footnotes-config*
+
+  The default date format for the footnotes is "%Y%m%d", but you can easily
+  change it by adding the following line to your vimrc file:
+>
+    let g:footnotes_format = ""
+<
+  Insert the desired format between the quotes.
+
+==============================================================================
+
+vim:tw=78:ts=8:ft=help:norl:
