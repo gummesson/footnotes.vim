@@ -37,7 +37,7 @@ Insert the desired format between the quotes.
 
 ## Screenshot
 
-![footnotes.vim](https://github.com/gummesson/footnotes.vim/blob/master/screenshot.gif)
+![footnotes.vim](http://i.imgur.com/2l8FL8i.gif)
 
 ## License
 
