@@ -25,7 +25,7 @@ function! footnotes#Append()
   call s:restore_history()
 endfunction
 
-function! footnotes#Strip()
+function! footnotes#Remove()
   call s:save_history()
   call s:save_cursor()
     silent exec '%s/\v\[\^(\d+)-/\[\^/g'

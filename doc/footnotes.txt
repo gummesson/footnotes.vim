@@ -25,9 +25,9 @@
 >
   :FootnotesAppend
 <
-  Strip the date from footnotes:			*footnotes-strip*
+  Remove the date from footnotes:			*footnotes-strip*
 >
- :FootnotesStrip
+ :FootnotesRemove
 <
   Toggle between both functions:			*footnotes-toggle*
 >

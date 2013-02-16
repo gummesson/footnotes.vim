@@ -17,9 +17,9 @@ If you're not using [Pathogen](https://github.com/tpope/vim-pathogen "Pathogen")
 
     :FootnotesAppend
 
-**Strip date from footnotes:**
+**Remove date from footnotes:**
 
-    :FootnotesStrip
+    :FootnotesRemove
 
 **Toggle between both functions:**
 
