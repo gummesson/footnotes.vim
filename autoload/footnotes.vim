@@ -11,7 +11,7 @@ function! footnotes#Toggle()
     call footnotes#Append()
   else
     let g:footnotes_mode = 0
-    call footnotes#Strip()
+    call footnotes#Remove()
   endif
 endfunction
 
@@ -43,10 +43,10 @@ function! s:restore_history()
 endfunction
 
 " ~ Cursor
-function s:save_cursor()
+function! s:save_cursor()
   let s:cursor_line = line(".")
 endfunction
 
-function s:restore_cursor()
+function! s:restore_cursor()
   call cursor(s:cursor_line, "0")
 endfunction
