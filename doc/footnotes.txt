@@ -2,7 +2,7 @@
 
   INTRODUCTION						*footnotes-intro*
 
-  *footnotes.vim* is a for easily managing sessions in Vim.
+  *footnotes.vim* is a small plugin for handling MultiMarkdown footnotes.
 
 ==============================================================================
 
