@@ -20,7 +20,7 @@ function! footnotes#Append()
   call s:save_history()
   call s:save_cursor()
     let date = strftime(g:footnotes_format)
-    silent exec "%s/\v\[\^/\[\^".date."-/g"
+    silent! execute '%s/\v\[\^/\[\^'.date.'-/g'
   call s:restore_cursor()
   call s:restore_history()
 endfunction
@@ -28,7 +28,7 @@ endfunction
 function! footnotes#Remove()
   call s:save_history()
   call s:save_cursor()
-    silent exec "%s/\v\[\^(\d+)-/\[\^/g"
+    silent! execute '%s/\v\[\^(\d+)-/\[\^/g'
   call s:restore_cursor()
   call s:restore_history()
 endfunction
