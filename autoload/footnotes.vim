@@ -1,8 +1,9 @@
+"
 " footnotes.vim
 "
-"  Version: 1.0
-"   Author: Ellen Gummesson
-"  License: Vim
+"  Author: Ellen Gummesson
+" License: Vim
+"
 
 function! footnotes#Toggle()
   if (g:footnotes_mode == 0)
